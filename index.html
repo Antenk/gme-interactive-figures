@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Golden Measure Equation – Interactive Figures</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="Interactive journal-style figures illustrating the Golden Measure Equation (GME) and its structural, aeolian, and morphogenetic interpretations." />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png" />
+
+  <!-- p5.js -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.3/lib/p5.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h1>Golden Measure Equation</h1>
+  <p class="subtitle">
+    Interactive journal-style figures (Figures 1–4)
+  </p>
+</header>
+
+<section id="controls">
+  <button onclick="mode=1">Figure 1</button>
+  <button onclick="mode=2">Figure 2</button>
+  <button onclick="mode=3">Figure 3</button>
+  <button onclick="mode=4">Figure 4</button>
+
+  <span class="divider"></span>
+
+  <button id="btn-methods">Methods</button>
+  <button id="btn-units">Units: Normalized</button>
+
+  <span class="divider"></span>
+
+  <button id="btn-export-png">Export PNG</button>
+  <button id="btn-export-svg">Export SVG</button>
+</section>
+
+<main>
+  <div id="canvas-holder"></div>
+</main>
+
+<footer>
+  <p>
+    © 2026 · Golden Measure Equation · Interactive Supplement
+  </p>
+</footer>
+
+<script src="sketch.js"></script>
+
+</body>
+</html>
